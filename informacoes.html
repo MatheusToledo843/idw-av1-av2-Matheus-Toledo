@@ -6,15 +6,17 @@
     <title>Cilindrada Rossa - Informações</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
+    
     <header class="banner-topo">
       <img src="imagens/banner.png" alt="Banner Cilindrada Rossa" class="img-banner">
     </header>
 
+    
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="index.html">Cilindrada Rossa</a>
@@ -40,13 +42,15 @@
       </div>
     </nav>
 
+    
     <main class="container my-5">
       <h1 class="text-center mb-2">Catálogo de Informações</h1>
       <p class="text-center text-muted mb-5">Explore matérias técnicas, históricos das pistas e fichas de modelos icônicos.</p>
 
-      <div class="row g-4">
+      
+      <div class="row g-4 mb-5">
         
-        <!-- CARD 1 -->
+        
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card h-100 shadow-sm">
             <img src="imagens/f1corrida.png" class="card-img-top" alt="Carro de Fórmula 1 em corrida">
@@ -61,7 +65,7 @@
           </div>
         </div>
 
-        <!-- CARD 2 -->
+        
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card h-100 shadow-sm">
             <img src="imagens/mecanicav12.png" class="card-img-top" alt="Motor V12 Ferrari">
@@ -76,7 +80,7 @@
           </div>
         </div>
 
-        <!-- CARD 3 -->
+        
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card h-100 shadow-sm">
             <img src="imagens/f40.png" class="card-img-top" alt="Ferrari F40 vermelha">
@@ -91,13 +95,73 @@
           </div>
         </div>
 
-      </div>
+      </div> 
+
+      <hr class="border-danger opacity-50 my-5">
+
+      
+      <section class="secao-tabela py-4">
+        <div class="text-center mb-4">
+          <h3 class="titulo-destaque text-danger">Comparativo Técnico</h3>
+          <p class="text-muted mx-auto" style="max-width: 700px;">
+            Confira abaixo a tabela comparativa com os principais dados de desempenho, motorização e produção de modelos emblemáticos que marcaram a história da Ferrari.
+          </p>
+        </div>
+
+        <div class="table-responsive shadow-lg rounded">
+          <table class="table table-dark table-hover align-middle text-center mb-0">
+            <thead>
+              <tr class="tabela-cabecalho">
+                <th scope="col" class="py-3">#</th>
+                <th scope="col" class="py-3">Modelo</th>
+                <th scope="col" class="py-3">Motor</th>
+                <th scope="col" class="py-3">Potência</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-danger fw-bold">1</th>
+                <td class="fw-semibold">Ferrari F40</td>
+                <td>2.9 V8 Biturbo</td>
+                <td>478 cv</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-danger fw-bold">2</th>
+                <td class="fw-semibold">Ferrari F50</td>
+                <td>4.7 V12 Atmosférico</td>
+                <td>520 cv</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-danger fw-bold">3</th>
+                <td class="fw-semibold">Ferrari Enzo</td>
+                <td>6.0 V12 Atmosférico</td>
+                <td>660 cv</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-danger fw-bold">4</th>
+                <td class="fw-semibold">LaFerrari</td>
+                <td>6.3 V12 Híbrido</td>
+                <td>963 cv</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-danger fw-bold">5</th>
+                <td class="fw-semibold">SF90 Stradale</td>
+                <td>4.0 V8 Turbo Híbrido</td>
+                <td>1000 cv</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
     </main>
 
+    
     <footer class="bg-dark text-white text-center py-3 mt-5">
       <p class="mb-0">&copy; 2026 Cilindrada Rossa - Todos os direitos reservados.</p>
     </footer>
 
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
